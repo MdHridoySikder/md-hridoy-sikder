@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3b82f6;
+  --bg-color: #ffffff;
+  --cursor-color: 59, 130, 246;
+}
+
+[data-theme='dark'] {
+  --primary: #a78bfa;
+  --bg-color: #0f172a;
+  --cursor-color: 167, 139, 250;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--base-content);
+  overflow-x: hidden;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+
+/* Global Layout Container */
+.section-container {
+  @apply max-w-[1200px] mx-auto px-6 md:px-12 lg:px-20 w-full;
+}
+
+.section-py {
+  @apply py-20;
+}
+
+/* Glassy Side Effect */
+.glassy-side-effect {
+  position: relative;
+}
+
+.glassy-side-effect::before,
+.glassy-side-effect::after {
+  content: '';
+  position: absolute; /* Changed from fixed to absolute to avoid layout shifts */
+  top: 0;
+  bottom: 0;
+  width: 15%; /* Responsive width */
+  max-width: 300px;
+  min-width: 50px;
+  z-index: 0; /* Behind content */
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(var(--cursor-color), 0.08) 0%, transparent 80%);
+  mask-image: linear-gradient(to right, black, transparent);
+}
+
+.glassy-side-effect::before {
+  left: -5%;
+}
+
+.glassy-side-effect::after {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+@media (max-width: 1200px) {
+  .glassy-side-effect::before,
+  .glassy-side-effect::after {
+    display: none;
+  }
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(var(--cursor-color), 0.3);
+  box-shadow: 0 0 20px rgba(var(--cursor-color), 0.5);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, background 0.3s;
+}
+
+/* Animations */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
+
+.glass-card {
+  @apply bg-white/10 dark:bg-slate-900/10 backdrop-blur-md border border-white/20 dark:border-white/5 shadow-xl;
+}
+
+.nav-link-active {
+  @apply relative;
+}
+
+.nav-link-active::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full;
+}
