@@ -95,7 +95,7 @@ const About = () => {
               <p className="text-base-content/70 leading-relaxed text-lg italic">
                 I'm{" "}
                 <span className="text-foreground font-bold">
-                  I'm Md Hridoy Sikder
+                  Md Hridoy Sikder
                 </span>
                 , a skilled Fullstack Web Developer based in Bangladesh. I
                 specialize in turning complex logic into elegant, user-friendly
