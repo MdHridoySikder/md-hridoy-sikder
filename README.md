@@ -11,6 +11,7 @@
 ---
 
 ### 👋 Hello, I'm Md Hridoy Sikder
+
 Expert In **React.js** based in Bangladesh. I turn ideas into stunning websites, crafting fast, responsive, and visually striking web experiences.
 
 [**🌐 Explore Live Site**](https://md-hridoy-sikder.netlify.app)
@@ -20,17 +21,21 @@ Expert In **React.js** based in Bangladesh. I turn ideas into stunning websites,
 ## 🛠️ Tech Stack & Skills
 
 ### **Frontend Architecture**
+
 - **React 19** (95%) | **Next.js 15** (85%) | **Tailwind CSS** (98%) | **TypeScript** (90%)
 
 ### **Backend & Systems**
+
 - **Node.js** (85%) | **Express.js** (80%) | **MongoDB** (82%) | **PostgreSQL** (75%)
 
 ### **Tools & Ecosystem**
+
 - **Git/GitHub** | **Docker** | **VS Code** | **Vercel / Netlify**
 
 ---
 
 ## ✨ Premium Features
+
 - 🌓 **Dynamic Theme Toggle**: Seamless switch between Light and Dark modes.
 - 📱 **Fully Responsive**: Optimized for everything from mobile to desktop.
 - ⚡ **Performance First**: Built with Vite and React 19 for lightning-fast loads.
@@ -41,20 +46,20 @@ Expert In **React.js** based in Bangladesh. I turn ideas into stunning websites,
 
 ## 📂 Project Highlights
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **AssetVerse** | Implement complex animations and modular React components. | React, Tailwind, Framer Motion |
-| **EcoTrack** | Real-time data sync across multiple clients. | Node.js, Express, MongoDB |
-| **SkillSwap** | Complex state management and SSR logic. | Next.js, TypeScript, Prisma |
+| Project        | Description                                                                                                                        | Tech Stack                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **AssetVerse** | A full-stack MERN application for managing company assets, employee requests, and approval workflows with role-based dashboards.   | React, Node.js, Express.js, MongoDB, Firebase Auth, Tailwind CSS, DaisyUI, React Query, Axios |
+| **EcoTrack**   | A community-driven eco activity tracking platform where users can log eco-friendly activities and monitor sustainability progress. | React, Node.js, Express.js, MongoDB, Firebase Authentication, Tailwind CSS, DaisyUI           |
+| **SkillSwap**  | A MERN-based skill-sharing platform where users can offer, discover, and book learning sessions locally.                           | React, Node.js, Express.js, MongoDB, Firebase Auth, Tailwind CSS, DaisyUI                     |
 
 ---
 
 ## 🎓 Experience & Education
 
 - **Bachelor of Business Studies (B.B.S)**  
-  *Uttar Kattali Al-Haj Mostata Hakim College, Chittagong (2022 – 2028)*
+  _Uttar Kattali Al-Haj Mostata Hakim College, Chittagong (2022 – 2028)_
 - **Fullstack Web Development**  
-  *Programming Hero (6-Month Professional Course, 2025)*
+  _Programming Hero (6-Month Professional Course, 2025)_
 
 ---
 
