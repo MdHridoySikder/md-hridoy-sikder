@@ -12,64 +12,197 @@ import project6 from "../Photo/project6.png";
 const projectsData = [
   {
     id: 1,
-    name: "1. AssetVerse",
+    name: "AssetVerse",
     image: project1,
-    tech: ["React", "Tailwind", "Framer Motion"],
+
+    description:
+      "A full-stack MERN application for managing company assets, employee requests, and approval workflows with role-based dashboards.",
+
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Auth",
+      "Tailwind CSS",
+      "DaisyUI",
+      "React Query",
+      "Axios",
+    ],
+
     live: "https://asset-verse-clint.netlify.app",
-    githubRepo: "https://github.com/MdHridoySikder/asset-verse.git",
-    challenges: "Implementing complex animations and ensuring modularity.",
+
+    githubRepoFrontend: "https://github.com/MdHridoySikder/asset-verse-client",
+
+    githubRepoBackend: "https://github.com/MdHridoySikder/asset-verse-server",
+
+    features: [
+      "Role-based Admin & Employee dashboards",
+      "Asset request and approval workflow",
+      "Real-time status tracking",
+      "Protected routes with Firebase Authentication",
+      "Responsive UI for all devices",
+    ],
+
+    challenges:
+      "Managing secure role-based access and handling dynamic asset request workflows.",
+
     improvements:
-      "Optimization of asset loading and enhanced accessibility features.",
+      "Plan to add email notifications, advanced filtering, and analytics dashboard.",
   },
+
   {
     id: 2,
-    name: "2. EcoTrack",
+    name: "EcoTrack",
     image: project2,
-    tech: ["Node.js", "Express", "MongoDB"],
+
+    description:
+      "A community-driven eco activity tracking platform where users can log eco-friendly activities and monitor sustainability progress.",
+
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "DaisyUI",
+    ],
+
     live: "https://eco-track-com.netlify.app",
-    githubRepo: "https://github.com/MdHridoySikder/eco-track.git",
-    challenges: "Managing real-time data sync across multiple clients.",
-    improvements: "Upgraded socket implementation for better performance.",
+
+    githubRepoFrontend: "https://github.com/MdHridoySikder/eco-track-client",
+
+    githubRepoBackend: "https://github.com/MdHridoySikder/eco-track-server",
+
+    features: [
+      "Daily eco activity logging",
+      "Carbon footprint tracking",
+      "Challenge participation system",
+      "User profile management",
+      "Authentication & protected routes",
+    ],
+
+    challenges:
+      "Handling user activity tracking efficiently and maintaining clean database structure.",
+
+    improvements:
+      "Future improvements include leaderboard system and activity insights dashboard.",
   },
+
   {
     id: 3,
-    name: "3. SkillSSwap",
+    name: "SkillSSwap",
     image: project3,
-    tech: ["Next.js", "TypeScript", "Prisma"],
+
+    description:
+      "A MERN-based skill-sharing platform where users can offer, discover, and book learning sessions locally.",
+
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Auth",
+      "Tailwind CSS",
+      "DaisyUI",
+    ],
+
     live: "https://my-assignment-no-09.netlify.app",
-    githubRepo: "https://github.com/MdHridoySikder/my-assignment-no-09.git",
-    challenges: "Complex state management and server-side rendering logic.",
-    improvements: "Better caching mechanisms and database indexing.",
+
+    githubRepoFrontend: "https://github.com/MdHridoySikder/my-assignment-no-09",
+
+    features: [
+      "Browse different skill listings",
+      "Book skill-sharing sessions",
+      "Authentication system",
+      "Protected private routes",
+      "Modern responsive design",
+    ],
+
+    challenges:
+      "Managing authentication flow and handling dynamic user interactions.",
+
+    improvements:
+      "Planning to add real-time messaging and booking management system.",
   },
   {
     id: 4,
-    name: "4. Hero.io",
+    name: "Hero.io",
     image: project4,
-    tech: ["Next.js", "TypeScript", "Prisma"],
+
+    description:
+      "A responsive web application built with React focusing on dynamic UI and smooth user experience for modern web interaction.",
+
+    tech: ["React", "JavaScript", "HTML5", "Tailwind CSS"],
+
     live: "https://hero-gaming-apps.netlify.app",
+
     githubRepo: "https://github.com/MdHridoySikder/hero-apps.git",
-    challenges: "Complex state management and server-side rendering logic.",
-    improvements: "Better caching mechanisms and database indexing.",
+
+    features: [
+      "Modern responsive UI design",
+      "Component-based architecture",
+      "Interactive user interface",
+      "Optimized page layout with Tailwind CSS",
+    ],
+
+    challenges:
+      "Managing component structure and maintaining clean UI consistency across pages.",
+
+    improvements:
+      "Plan to add backend integration and advanced state management.",
   },
   {
     id: 5,
-    name: "5. CS – Ticket System",
+    name: "CS – Ticket System",
     image: project5,
-    tech: ["Next.js", "TypeScript", "Prisma"],
+
+    description:
+      "A simple ticket management web application for handling support requests and tracking user submissions efficiently.",
+
+    tech: ["JavaScript", "HTML5", "Tailwind CSS"],
+
     live: "https://assignment0777.netlify.app",
+
     githubRepo: "https://github.com/MdHridoySikder/my-assignment-no-7.git",
-    challenges: "Complex state management and server-side rendering logic.",
-    improvements: "Better caching mechanisms and database indexing.",
+
+    features: [
+      "Ticket creation interface",
+      "User-friendly dashboard layout",
+      "Status tracking UI",
+      "Responsive design",
+    ],
+
+    challenges: "Handling UI state updates and maintaining structured layout.",
+
+    improvements: "Future plan: add backend API and authentication system.",
   },
   {
     id: 6,
-    name: "6. Green Earth",
+    name: "Green Earth",
+
     image: project6,
-    tech: ["Next.js", "TypeScript", "Prisma"],
-    live: "file:///C:/All-Assignment/my-assignment-no-06/index.html",
+
+    description:
+      "A static eco-awareness website designed to promote environmental sustainability and awareness content.",
+
+    tech: ["JavaScript", "HTML5", "Tailwind CSS"],
+
+    live: "https://green-earth-demo.netlify.app",
+
     githubRepo: "https://github.com/MdHridoySikder/my-assignment-no-06.git",
-    challenges: "Complex state management and server-side rendering logic.",
-    improvements: "Better caching mechanisms and database indexing.",
+
+    features: [
+      "Eco awareness content sections",
+      "Responsive landing page",
+      "Clean UI design",
+      "Fast loading static site",
+    ],
+
+    challenges: "Creating structured layout using only HTML and Tailwind CSS.",
+
+    improvements: "Convert into React-based dynamic application in future.",
   },
 ];
 
