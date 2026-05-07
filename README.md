@@ -12,35 +12,52 @@
 
 ### 👋 Hello, I'm Md Hridoy Sikder
 
-Expert In **React.js** based in Bangladesh. I turn ideas into stunning websites, crafting fast, responsive, and visually striking web experiences.
+A **MERN Stack Developer** based in Bangladesh. I build responsive and scalable web applications using React, Node.js, and MongoDB.
 
-[**🌐 Explore Live Site**](https://md-hridoy-sikder.netlify.app)
+I enjoy turning ideas into clean, functional, and user-friendly web experiences focused on performance and usability.
 
----
+## [🌐 Explore Live Site](https://md-hridoy-sikder.netlify.app)
 
 ## 🛠️ Tech Stack & Skills
 
-### **Frontend Architecture**
+### Frontend Development
 
-- **React 19** (95%) | **Next.js 15** (85%) | **Tailwind CSS** (98%) | **TypeScript** (90%)
+- HTML5
+- CSS3
+- Tailwind CSS
+- JavaScript (ES6+)
+- React.js
+- Next.js
 
-### **Backend & Systems**
+### Backend Development
 
-- **Node.js** (85%) | **Express.js** (80%) | **MongoDB** (82%) | **PostgreSQL** (75%)
+- Node.js
+- Express.js
+- REST API Development
+- JWT Authentication
 
-### **Tools & Ecosystem**
+### Database
 
-- **Git/GitHub** | **Docker** | **VS Code** | **Vercel / Netlify**
+- MongoDB
+- Firebase (Authentication & Services)
+
+### Tools & Platforms
+
+- Git & GitHub
+- VS Code
+- Figma (UI Design)
+- Vercel (Deployment)
+- Netlify (Deployment)
 
 ---
 
-## ✨ Premium Features
+## ✨ Key Features
 
-- 🌓 **Dynamic Theme Toggle**: Seamless switch between Light and Dark modes.
-- 📱 **Fully Responsive**: Optimized for everything from mobile to desktop.
-- ⚡ **Performance First**: Built with Vite and React 19 for lightning-fast loads.
-- 🎨 **Fluid Animations**: Powered by **Framer Motion** for a premium feel.
-- 🖱️ **Next-Gen Scrolling**: Custom smooth-scroll implementation with nav-offset handling.
+- 🌓 **Responsive UI Design**: Mobile, tablet, and desktop friendly layout.
+- 📱 **Fully Responsive**: Optimized for all screen sizes.
+- ⚡ **Performance Focused**: Clean and optimized frontend structure for better loading speed.
+- 🎨 **Modern UI Styling**: Built with Tailwind CSS for consistent design system.
+- 🖱️ **Smooth User Experience**: Simple and intuitive navigation across pages.
 
 ---
 
@@ -59,7 +76,7 @@ Expert In **React.js** based in Bangladesh. I turn ideas into stunning websites,
 - **Bachelor of Business Studies (B.B.S)**  
   _Uttar Kattali Al-Haj Mostata Hakim College, Chittagong (2022 – 2028)_
 - **Fullstack Web Development**  
-  _Programming Hero (6-Month Professional Course, 2025)_
+  _Programming Hero (6-Month Professional Course, 2026)_
 
 ---
 
